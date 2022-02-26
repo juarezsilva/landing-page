@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Norican&family=Righteous&display=swap');
+
+* {
+    margin: 0; /* margem distância fora do elemento */
+    padding: 0; /* margem distância conteúdo interior */
+    box-sizing: border-box; /* alterar a propriedade padrão da box */
+    text-decoration: none; /* anula qualquer decoração */
+}
+
+body {
+    font-size: 100%; /* tamanho da fonte */
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #BE5D52 85.61%); /* cor do fundo da página */
+}
+
+.cabecalho {
+    display: flex; /* serve organizar os elementos de uma página em HTML dentro de seus container de forma dinâmica */
+    flex-direction: row; /* tudo na mesma linha */
+    align-items: center; /* estabelece alinhamento de um item */
+    justify-content: space-around; /* cria espaçamentos entre os elementos dos itens centralizando as bordas */
+    padding: 24px; /* margem distância conteúdo interior */
+}
+
+.cabecalho-imagem {
+    height: 72px; /* altura da imagem, ajusta a largura automaticamente */
+}
+
+.cabecalho-menu {
+    display: flex; /* serve organizar os elementos de uma página em HTML dentro de seus container de forma dinâmica */
+    gap: 32px; /* coloca dsitância em todos elementos */
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif; /* Tipo de letra */
+    color: #FFF2E7; /* cor da letra */
+    font-weight: 400; /* peso da letra + negrito*/
+    font-size: 18px; /* tamanho da letra */
+}
+
+.conteudo {
+    margin-bottom: 48px; /* margem no final do conteúdo  */
+    border-top: 0.4px solid #FFF2E7; /* borda do topo */
+}
+
+.conteudo-principal {
+    display: flex; /* serve organizar os elementos de uma página em HTML dentro de seus container de forma dinâmica */
+    flex-direction: row; /* tudo na mesma linha */
+    align-items: center; /* estabelece alinhamento de um item */
+    justify-content: space-around; /* cria espaçamentos entre os elementos dos itens centralizando as bordas */
+}
+
+.conteudo-principal-escrito {
+    display: flex; /* serve organizar os elementos de uma página em HTML dentro de seus container de forma dinâmica */
+    flex-direction: column; /* deixa o escritro em coluna */
+    gap: 32px; /* coloca dsitância em todos elementos */
+}
+
+.conteudo-principal-escrito-titilo {
+    font-family: 'Righteous', cursive; /* Tipo de letra */
+    font-weight: 400; /* peso da letra + negrito*/
+    font-size: 64px; /* tamanho da letra */
+    color: #FFF2E7  /* cor da letra */
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif; /* Tipo de letra */
+    font-weight: 400; /* peso da letra + negrito*/
+    font-size: 24px;  /* tamanho da letra */
+    color: #ECD6C4 /* cor da letra */
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ECD6C4; /* cor do fundo do botão */
+    height: 60px;   /* altura do botão */
+    width: 180PX;  /* largura do botão */
+    border: none;  /* anula a borda (none é nenhuma) */
+    box-shadow: 4px, 5px 4px rgba(0, 0, 0, 0.25); /* é utilizado para adicionar efeito sombra em volta de um elemento */
+    border-radius: 20px; /* destina-se a definir bordas arrendondadas*/   
+    font-family: 'Sarala', sans-serif; /* Tipo de letra */
+    font-weight: 400;  /* peso da letra + negrito*/
+    font-size: 24px;   /* tamanho da letra */
+    color: #2F2325   /* cor da letra */
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53); /* hover é um pseudo-classe que corresponde a designa ou dispositivo não necessariamente ativo (efeito sombra no botão) */
+}
+
+.conteudo-principal-imagem {
+    height: 430px; /* altura do botão */
+}
+
+.conteudo-secundario {
+    display: flex; /* serve organizar os elementos de uma página em HTML dentro de seus container de forma dinâmica */
+    flex-direction: column; /* deixa o escritro em coluna */
+    align-items: center; /* estabelece alinhamento de um item */
+    gap: 24px;  /* coloca dsitância em todos elementos */
+    margin-top: 48px; /* margem no topo do conteúdo  */
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px Solid #FFF2E7; /* borda do topo */
+    padding-top: 48px;  /* margem distância conteúdo interior no topo */
+    font-family: 'Righteous', cursive; /* Tipo de letra */
+    font-weight: 400; /* peso da letra + negrito*/
+    font-size: 24px;  /* tamanho da letra */
+    color: #FFF2E7;  /* cor da letra */
+    margin-bottom: 16px;  /* margem no final do conteúdo  */  
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;  /* Tipo de letra */
+    font-weight: 300;  /* peso da letra + negrito*/
+    font-size: 18px;   /* tamanho da letra */
+    color: #ECD6C4  /* cor da letra */
+}
+
+.rodape {
+    padding: 32px;  /* margem distância conteúdo interior */
+    border-top: 0.4px solid #FFF2E7; /* borda do topo */
+}
+
+.rodape-imagem {
+    height: 48px;     /* altura do botão */
+    display: block;   /*especifica o tipo de caixa de renderização (block) bloco*/
+    margin: 0 auto;  /* coloca um elemento na posição central */
+}
+
